@@ -54,7 +54,7 @@ cuda10.1、cudnn7.6.5
 
 | 原图：                                                       | 均值滤波：                                                   | 改变光照对比度：                                             | 双边滤波：                                                   |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| ![](https://github.com/FreeTechnician/Fatigue_detection/blob/master/img/0.jpg) | ![](https://github.com/FreeTechnician/Fatigue_detection/blob/master/img/30.jpg) | ![2](https://github.com/FreeTechnician/Fatigue_detection/blob/master/img/10.jpg) | ![0](https://github.com/FreeTechnician/Fatigue_detection/blob/master/img/20.jpg) |
+| ![](./img/0.jpg) | ![](./img/30.jpg) | ![2](./img/10.jpg) | ![0](./img/20.jpg) |
 
 对WFLW数据集进行简单的处理，生成训练数据集
 
@@ -96,7 +96,7 @@ trainer.py同样适用于P_Net，但本次P网络是直接采用MTCNN中的P网�
 
 效果图：
 
-![19](https://github.com/FreeTechnician/Fatigue_detection/blob/master/img/19.jpg)
+![19](./img/19.jpg)
 
 ### video_detect.py
 
